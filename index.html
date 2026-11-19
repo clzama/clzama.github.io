@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chutinan Larit | Computer Engineering Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="logo">MyPortfolio</div>
+    <nav>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#about">เกี่ยวกับฉัน</a></li>
+        <li><a href="#skills">ทักษะ</a></li>
+        <li><a href="#experience">ประวัติ & ประสบการณ์</a></li>
+        <li><a href="#projects">ผลงาน</a></li>
+        <li><a href="#contact">ติดต่อ</a></li>
+      </ul>
+    </nav>
+    <div class="nav-actions">
+      <button id="theme-toggle" class="btn-icon" aria-label="สลับโหมดสี">🌙</button>
+      <button id="menu-toggle" class="btn-icon mobile-menu-btn" aria-label="เปิดเมนู">☰</button>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-container">
+      <div class="hero-content">
+        <span class="badge">Computer Engineering Student</span>
+        <h1>ชุตินันท์ หล้าฤทธิ์</h1>
+        <h2>Web Developer & Data Enthusiast</h2>
+        <p class="description">
+          นักศึกษาคณะวิศวกรรมศาสตร์ สาขาคอมพิวเตอร์ มหาวิทยาลัยรามคำแหง 
+          มีความสนใจด้านการพัฒนาเว็บไซต์ (Web Dev) และสายงานข้อมูล (Data) 
+          มุ่งมั่นที่จะเรียนรู้ประสบการณ์การทำงานจริงทั้งด้านซอฟต์แวร์และฮาร์ดแวร์
+        </p>
+        <div class="hero-buttons">
+          <a href="#projects" class="btn primary">ดูผลงานของฉัน</a>
+          <a href="Resume_Chutinan Larit.pdf" download="Resume_Chutinan_Larit.pdf" class="btn secondary">📄 ดาวน์โหลด Resume</a>
+          <a href="#contact" class="btn secondary">ติดต่อพูดคุย</a>
+        </div>
+      </div>
+
+      <!-- รูปโปรไฟล์เชื่อมจากโฟลเดอร์ img/Profile.jpg -->
+      <div class="hero-image">
+        <div class="img-wrapper">
+          <img src="img/Profile.jpg" alt="ชุตินันท์ หล้าฤทธิ์" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section bg-alt">
+    <div class="container">
+      <h2 class="section-title">เกี่ยวกับฉัน</h2>
+      <div class="about-card">
+        <p>
+          ปัจจุบันกำลังศึกษาอยู่คณะวิศวกรรมศาสตร์ สาขาคอมพิวเตอร์ มหาวิทยาลัยรามคำแหง 
+          มีพื้นฐานทั้งการพัฒนาเว็บแอปพลิเคชัน (Frontend & Backend), การจัดการฐานข้อมูล, ระบบเครือข่าย 
+          รวมถึงการออกแบบวงจรและระบบ IoT พร้อมนำทักษะการแก้ปัญหาและการทำงานร่วมกับผู้อื่นจากประสบการณ์ทำงานพาร์ทไทม์มาปรับใช้ในการทำงานสายเทคโนโลยี
+        </p>
+        <div class="info-highlights">
+          <div class="highlight-item">
+            <strong>สาขาวิชา:</strong> วิศวกรรมคอมพิวเตอร์
+          </div>
+          <div class="highlight-item">
+            <strong>ความสนใจหลัก:</strong> Web Development, Data, Software & Hardware
+          </div>
+          <div class="highlight-item">
+            <strong>ภาษา:</strong> ภาษาไทย, ภาษาอังกฤษ (สื่อสารได้เบื้องต้น)
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="section">
+    <div class="container">
+      <h2 class="section-title">ทักษะทางเทคนิค (Technical Skills)</h2>
+      <div class="skills-grid">
+        <div class="skill-category">
+          <h3>💻 Frontend Development</h3>
+          <div class="skill-tags">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <h3>⚙️ Backend & Database</h3>
+          <div class="skill-tags">
+            <span>Python</span>
+            <span>MySQL</span>
+            <span>MongoDB</span>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <h3>🛠️ Tools & DevOps</h3>
+          <div class="skill-tags">
+            <span>VS Code</span>
+            <span>Android Studio</span>
+            <span>Docker</span>
+            <span>MS Office</span>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <h3>🌐 Networking & Hardware</h3>
+          <div class="skill-tags">
+            <span>Cisco Packet Tracer</span>
+            <span>พื้นฐานระบบ Network</span>
+            <span>พื้นฐาน IoT</span>
+            <span>PCB Design (KiCad)</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education & Experience Section -->
+  <section id="experience" class="section bg-alt">
+    <div class="container">
+      <h2 class="section-title">การศึกษาและประสบการณ์</h2>
+      <div class="timeline-grid">
+        <!-- การศึกษา -->
+        <div class="timeline-col">
+          <h3 class="col-heading">🎓 ประวัติการศึกษา</h3>
+          <div class="timeline-item">
+            <span class="year">2566 – ปัจจุบัน</span>
+            <h4>มหาวิทยาลัยรามคำแหง</h4>
+            <p class="role">คณะวิศวกรรมศาสตร์ สาขาคอมพิวเตอร์</p>
+          </div>
+          <div class="timeline-item">
+            <span class="year">2562 – 2564</span>
+            <h4>โรงเรียนนครขอนแก่น</h4>
+            <p class="role">สายการเรียน วิทย์-คณิต (GPA 3.06)</p>
+          </div>
+        </div>
+
+        <!-- ประสบการณ์ทำงาน -->
+        <div class="timeline-col">
+          <h3 class="col-heading">💼 ประสบการณ์การทำงาน</h3>
+          <div class="timeline-item">
+            <span class="year">2565 – 2569</span>
+            <h4>พนักงานบริการ (Part-Time)</h4>
+            <p class="role">Little Mermaid Bakery : เบเกอรี่สไตล์ญี่ปุ่น</p>
+            <ul class="exp-list">
+              <li>จัดวางและดูแลความเรียบร้อยของ Display สินค้าหน้าร้าน</li>
+              <li>คีย์ข้อมูลสินค้าเข้าสู่ระบบและตรวจนับสต็อกสินค้า</li>
+              <li>ดูแลงานขายหน้าร้านและใช้งานระบบเครื่อง POS</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="section">
+    <div class="container">
+      <h2 class="section-title">ผลงานและโปรเจกต์</h2>
+      <div class="project-grid">
+        <!-- โปรเจกต์ที่ 1 (ใส่รูป img/Portfolio Website.jpg เรียบร้อย) -->
+        <article class="project-card">
+          <div class="project-img">
+            <img src="img/Portfolio Website.png" alt="Personal Portfolio Website" style="width: 100%; height: 100%; object-fit: cover; object-position: top;" />
+          </div>
+          <div class="project-info">
+            <h3>Personal Portfolio Website</h3>
+            <p>ออกแบบและพัฒนาเว็บไซต์แนะนำตัวและรวบรวมผลงาน รองรับการแสดงผลทุกหน้าจอ (Responsive) พร้อมระบบสลับธีม Dark/Light Mode</p>
+            <div class="tech-used">
+              <span>HTML</span><span>CSS</span><span>JavaScript</span>
+            </div>
+            <div class="project-links">
+              <a href="#" target="_blank">ดูเว็บไซต์ ↗</a>
+              <a href="#" target="_blank">GitHub</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- โปรเจกต์ที่ 2 -->
+        <article class="project-card">
+          <div class="project-img">NodeMCU ESP8266 Carrier</div>
+          <div class="project-info">
+            <h3>NodeMCU ESP8266 Carrier Board</h3>
+            <p>ออกแบบแผ่นวงจรพิมพ์ (PCB Design) สำหรับบอร์ดพัฒนา IoT NodeMCU ESP8266 เพื่อรองรับการเชื่อมต่อเซ็นเซอร์และอุปกรณ์ต่อพ่วง</p>
+            <div class="tech-used">
+              <span>KiCad</span><span>PCB Design</span><span>IoT / ESP8266</span>
+            </div>
+            <div class="project-links">
+              <a href="#" target="_blank">รายละเอียด ↗</a>
+              <a href="#" target="_blank">GitHub</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section bg-alt contact">
+    <div class="container">
+      <h2 class="section-title">ช่องทางการติดต่อ</h2>
+      <p class="contact-desc">เปิดรับโอกาสฝึกงานและร่วมงานด้าน Web Development, Data หรือ Software/Hardware Engineering</p>
+      
+      <div class="contact-cards">
+        <a href="mailto:chutinanla.47@gmail.com" class="contact-box">
+          <span class="icon">✉️</span>
+          <div>
+            <strong>อีเมล</strong>
+            <p>chutinanla.47@gmail.com</p>
+          </div>
+        </a>
+
+        <a href="tel:0618512211" class="contact-box">
+          <span class="icon">📞</span>
+          <div>
+            <strong>โทรศัพท์</strong>
+            <p>061-851-2211</p>
+          </div>
+        </a>
+
+        <div class="contact-box">
+          <span class="icon">📍</span>
+          <div>
+            <strong>ที่อยู่</strong>
+            <p>2159/65 ถนนเพชรบุรีตัดใหม่ เขตห้วยขวาง แขวงบางกะปิ กรุงเทพฯ 10310</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 ชุตินันท์ หล้าฤทธิ์ (Chutinan Larit). All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
